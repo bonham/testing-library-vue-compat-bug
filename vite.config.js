@@ -10,7 +10,6 @@ export default defineConfig({
     },
   },
   test: {
-    // setupFiles: ['tests/vitest-setupfiles/mockServiceWorker.js'],
     environment: 'jsdom',
   },
 });
